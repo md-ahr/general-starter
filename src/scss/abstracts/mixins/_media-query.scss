@@ -1,0 +1,61 @@
+// Media Queries
+
+@mixin xs-mobile {
+    @media only screen and (min-width: $xs-mobile){
+        @content;
+    }
+}
+
+@mixin sm-mobile {
+    @media only screen and (min-width: $sm-mobile){
+        @content;
+    }
+}
+
+@mixin md-mobile {
+    @media only screen and (min-width: $md-mobile){
+        @content;
+    }
+}
+
+@mixin lg-mobile {
+    @media only screen and (min-width: $lg-mobile){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (min-width: $tablet){
+        @content;
+    }
+}
+
+@mixin sm-laptop {
+    @media only screen and (min-width: $sm-laptop){
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media only screen and (min-width: $laptop){
+        @content;
+    }
+}
+
+@mixin sm-desktop {
+    @media only screen and (min-width: $sm-desktop){
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media only screen and (min-width: $desktop){
+        @content;
+    }
+}
+
+@mixin lg-desktop {
+    @media only screen and (min-width: $lg-desktop){
+        @content;
+    }
+}

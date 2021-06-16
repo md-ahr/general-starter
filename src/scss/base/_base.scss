@@ -1,0 +1,16 @@
+// Base Styles
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: $base-font;
+    font-weight: $lighter;
+    font-family: $montserrat-bold;
+    color: $text-dark;
+    background-color: $bg-light;
+    scroll-behavior: smooth;
+}
