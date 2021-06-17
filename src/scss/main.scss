@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+// Import Library
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 // Import Partial Stylesheets
 
 // Abstract
@@ -22,7 +26,3 @@
 
 // Vendors
 @import "./vendors/index";
-
-body {
-  transform: translate(50%);
-}
